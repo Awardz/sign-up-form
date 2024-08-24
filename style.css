@@ -90,6 +90,7 @@ body
     padding: 10px;
     
 }
+
 h3
 {
     margin-left: 20px;
@@ -112,6 +113,16 @@ label
     font-family: sans-serif;
 }
 
+input:focus
+{
+    border-color: #9db4e2;
+}
+
+input:invalid
+{
+    border-color: red;
+    
+}
 .footer
 {
     padding: 20px;
@@ -121,11 +132,22 @@ button
 {
     width: 175px;
     height: 40px;
-    border-radius: 6px;
+    border: none;
+    border-radius: 8px;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
 }
 
 .login
 {
     padding-top: 10px;
+}
+
+#login
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #596D48;
 }
 
