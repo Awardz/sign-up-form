@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-color: lightgray;
 }
 
 .container
@@ -23,7 +24,7 @@
     position: relative;
     
     height: 100vh;
-    width: 30%; 
+    width: 50%; 
 }
 
 .leaves
@@ -67,11 +68,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-p
-{
+    text-align:left;
+    padding: 50px;
+    padding-right: 250px; 
+    font-weight: 900;
+    font-size: large;
     
 }
+
 
 
