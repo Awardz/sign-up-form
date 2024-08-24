@@ -1,36 +1,39 @@
-@font-face {
+@font-face
+{
     font-family: norse-bold;
     src: url(font/Norse-Bold.otf);
 }
 
-.site   
+body
 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    margin: 0;
     padding: 0;
-    height: 100vh;
-    background-color: lightgray;
+    border: 0;
+    margin: 0;
 }
 
-.container
+.site   
 {
-    border: 6px solid black;
+    position: fixed;
+    display: flex;
+    
+    background-color: lightgray;
+    height: 100%;
+    width: 100%;
+
+    
 }
+
 .container#left
 {
     position: relative;
+    height: 100%;
+    width: 40%; 
     
-    height: 100vh;
-    width: 50%; 
 }
 
 .leaves
 {
-    position: relative;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -44,6 +47,7 @@
     background: black;
     opacity: 0.6;
     color: white;
+    font-weight: bold;
     top: 8rem;
     text-align: center;
     font-size: 50px;
@@ -61,6 +65,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    height: 100%;
 }
 
 .dream
@@ -69,21 +75,26 @@
     align-items: center;
     justify-content: center;
     text-align:left;
-    padding: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
     padding-right: 250px; 
+    padding-bottom: 10px;
     font-weight: 900;
     font-size: large;
+    
 }
 
 .forms
 {
     background: white;
     padding: 10px;
+    
 }
 h3
 {
     margin-left: 20px;
-    border: 6px solid black;
+    margin-bottom: 0;
+    
 }
 
 .row1,.row2,.row3
@@ -92,6 +103,29 @@ h3
     gap: 50px;
     margin-left: 20px;
     margin-bottom: 20px;
+    
 }
 
+label
+{
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.footer
+{
+    padding: 20px;
+}
+
+button
+{
+    width: 175px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.login
+{
+    padding-top: 10px;
+}
 
