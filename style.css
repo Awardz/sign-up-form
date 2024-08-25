@@ -64,7 +64,7 @@ body
     display: flex;
     font-size: 12px;
     bottom: 0;
-    left: 80px;
+    width: 100%;
 }
 
 a
