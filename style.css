@@ -54,6 +54,24 @@ body
     font-family: norse-bold; 
 }
 
+.halie
+{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    font-size: 12px;
+    bottom: 0;
+    left: 80px;
+}
+
+a
+{
+    color: white;
+}
+
 .logo
 {
     height: 100px;
